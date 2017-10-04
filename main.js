@@ -3,11 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
   var button = document.getElementById('sing');
   button.addEventListener('click', function() {
     
-    var friends = [`Vanessa`, `Gabriel`, `Heather`, `Otto`, `Mark`],
-        song = ``;
+    var friends = [`Vanessa`, `Gabriel`, `Heather`, `Otto`, `Mark`];
+        
         
     for (j = 0; j < friends.length; j++) {
-      var friend = friends[j];
+      var friend = friends[j],
+          song = ``;
 
       function songFunction() {
         for (i = 99; i > 0; i--) {
@@ -33,8 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
       vdiv.appendChild(vp);
       document.body.appendChild(vdiv);
       vdiv.className = "friend";
-
-      song = ``;
 
     };
   })
