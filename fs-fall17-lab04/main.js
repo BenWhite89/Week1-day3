@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         div.nextElementSibling.remove();
       } else if (Number(div.id)%2 != 0) {
         div.previousElementSibling.remove();
-      } else {};
+      };
     })
   })
 })
