@@ -1,0 +1,15 @@
+div {
+  background-color: black;
+  background: black;
+  margin: 0em;
+  padding: 0em;
+  align-content: center;
+}
+
+p {
+  height: 1em;
+  width: 1em;
+  padding: 0em;
+  margin: 0em;
+  text-align: center;
+}
